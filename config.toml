@@ -1,5 +1,5 @@
-baseurl = "https://example.org/"
-title = "Creative portfolio"
+baseurl = "./"
+title = "LiftedSubarus.com"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -12,11 +12,11 @@ publishDir= "build"
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
-  copyright = "&copy;2016 Your name or company"
+  description = "Curated Offroad Subaru Builds"
+  copyright = "&copy;2018 liftedsubarus.com"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "Curated Offroad Subaru Builds",
+    'Found this website helpful?<br><a href="https://www.paypal.me/devgorilla/1" ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="120" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#555" d="M0 0h21v20H0z"/><path fill="#007ec6" d="M21 0h99v20H21z"/><path fill="url(#b)" d="M0 0h120v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="115" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="110">☕</text><text x="115" y="140" transform="scale(.1)" textLength="110">☕</text><text x="695" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="890">Buy me a coffee</text><text x="695" y="140" transform="scale(.1)" textLength="890">Buy me a coffee</text></g> </svg></a>'
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -42,15 +42,9 @@ publishDir= "build"
   url = "about/"
 
   [[params.navlinks]]
-  name = "Get in touch"
+  name = "Contact"
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
+  email         = "dwbrown89@gmail.com"
+  github        = "https://github.com/liftedsubaru"

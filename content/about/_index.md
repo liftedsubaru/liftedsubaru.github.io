@@ -3,19 +3,16 @@ date = "2016-11-05T21:05:33+05:30"
 title = "About me"
 +++
 
-An sincerity so extremity he additions. Her yet **there truth merit**. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.
+In 2017 I bought my first Subaru: a worn-out $440 1987 Subaru DL wagon for the <a href="https://gambler500.com/">OG Oregon Gambler 500</a>. Two weeks later photobucket [broke the internet](https://medium.com/@AxelApp/how-photobucket-broke-the-internet-and-why-you-should-care-4a244bda6b7e), and most of the threads I was relying on to modify the car. Later that year I started seriously building on the car with a home-built lift kit with some blueprints I was luck to find and using advice I got from <a href="">Mtn Roo Rainier</a>, swapped in a phase I ej22, changed the wheel bolt pattern to toyota/chevy 6x5.5 and added 27s.
 
-Received overcame oh sensible so at an. Formed do change merely to county it. **Am separate contempt** domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.
+My goal is not to replace [USMB](http://www.ultimatesubaru.org/forum), [Nasioc](https://forums.nasioc.com/), or any other messaging board, but to self host as much content as possible to ensure it doesn't go away in the future.
 
-![This is me][1]
+This is where you come in. Working on a write-up? Awesome. Post it to your favorite messaging board, and send me it. Lets make sure these writeups don't disappear in the future. Don't own content and Just want me to link to it here? cool. Email me your list of your favorite build threads. The focus is on subaru builds, but generic build info like bumpers, tire carriers, fender folding techniques are all welcome.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
 
-#### Education
+Stay Muddy, Friends
+-Doug
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+![This is chubra][1]
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then
-
-[1]: /img/about.jpg
+[1]: ./img/site/elChubra.jpg
