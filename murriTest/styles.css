@@ -650,6 +650,10 @@ section h4 {
 .search{
   width: 50%;
 }
+.githubLogo{
+  width:20px;
+  float:right;
+}
 
 #about {
     margin:25px auto;
