@@ -1,4 +1,4 @@
-# Lifted Subaru
+# [Lifted Subaru](https://liftedsubaru.github.io)
 An archive for subaru offroading enthusiasts.
 
 Found this helpful?
