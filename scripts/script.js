@@ -97,7 +97,9 @@ document.addEventListener('DOMContentLoaded', function() {
     grid.filter(function(item) {
       var element = item.getElement();
       var isSearchMatch = !searchFieldValue ? true : (element.getAttribute('data-title') || '').toLowerCase().indexOf(searchFieldValue) > -1;
-      if (!isSearchMatch) isSearchMatch = !searchFieldValue ? true : (element.getAttribute('data-description') || '').toLowerCase().indexOf(searchFieldValue) > -1;
+      if (!isSearchMatch) isSearchMatch = (element.getAttribute('data-description') || '').toLowerCase().indexOf(searchFieldValue) > -1;
+      if (!isSearchMatch) isSearchMatch = (element.getAttribute('data-color') || '').toLowerCase().indexOf(searchFieldValue) > -1;
+
       var isFilterMatch = !filterFieldValue ? true : (element.getAttribute('data-color') || '') === filterFieldValue;
       return isSearchMatch && isFilterMatch;
     });
