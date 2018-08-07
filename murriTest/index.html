@@ -1,17 +1,19 @@
 <html lang="en" class="">
 
 <head>
-  <LINK href="./styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <link rel="stylesheet" href="http://liftedsubarus.com.s3-website-us-east-1.amazonaws.com/css/font-awesome.min.css" type="text/css">
 </head>
 
 <body>
 
   <h2 class="section-title"><span>LIFTED SUBARUS</span></h2>
+  <p style="margin-top:-25px;font-size:.6em;" class="section-title">Curated Offroad Subaru Build Guides</p>
   <div id="accordionWrapper">
-    <button class="accordion">ABOUT</button>
+    <button class="accordion accordion-action">ABOUT</button>
   </div>
   <div id="about">
-    In 2017 I bought my first Subaru: a worn-out $440 1987 Subaru DL wagon for the <a href="https://gambler500.com/">OG Oregon Gambler 500</a>. Two weeks later photobucket <a href="https://medium.com/@AxelApp/how-photobucket-broke-the-internet-and-why-you-should-care-4a244bda6b7e">broke the internet</a>, and most of the threads I was relying on to modify the car. Later that year I started seriously building on the car with a home-built lift kit with some blueprints I was lucky to find and using advice I got from <a href="">Mtn Roo Rainier</a>, swapped in a phase 1 ej22, changed the wheel bolt pattern to toyota/chevy 6x5.5 and added 27s.
+    <p>In 2017 I bought my first Subaru: a worn-out $440 1987 Subaru DL wagon for the <a href="https://gambler500.com/">OG Oregon Gambler 500</a>. Two weeks later photobucket <a href="https://medium.com/@AxelApp/how-photobucket-broke-the-internet-and-why-you-should-care-4a244bda6b7e">broke the internet</a>, and most of the threads I was relying on to modify the car.</p>
 
     My goal is not to replace <a href="http://www.ultimatesubaru.org/forum">USMB</a>, <a href="https://forums.nasioc.com/">NASIOC</a>, or any other messaging board, but to self host as much content as possible to ensure it doesn't go away again in the future.
 
@@ -19,11 +21,12 @@
   </br>
 
 
-    <p>Stay Muddy, Friends</p>
+    <p>Stay Muddy Friends,</p>
     <p>-Doug</p>
 
-    <p style="font-size:1.2em; margin-bottom:-10px; color:#9e9e9e">El Chubra,</p> <p style="font-size:.7em; margin-bottom:0px; color:#9e9e9e">my phase 1 ej22 swapped 87 dl</p>
-    <img style="margin:0 auto; width:100%" src="../static/img/site/elChubra.jpg"/>
+    <img style="margin:0 auto;display:block; width:75%;" src="../static/img/site/elChubra.jpg"/>
+    <br>
+    <button class="accordionClose accordion-action">X</button>
   </div>
 
   <section class="grid-demo">
@@ -32,7 +35,7 @@
         <div class="control-icon">
           <i class="material-icons">&#xE8B6;</i>
         </div>
-        <input class="control-field search-field form-control " type="text" name="search" placeholder="Search..." />
+        <input id="searchBar" class="control-field search-field form-control " type="text" name="search" placeholder="Search..." />
       </div>
       <div class="control filter">
         <div class="control-icon">
@@ -42,7 +45,7 @@
           <i class="material-icons">&#xE313;</i>
         </div>
         <select class="control-field filter-field form-control">
-              <option value="" selected>All</option>
+              <option value="" selected>All Types</option>
               <option value="red">Red</option>
               <option value="blue">Blue</option>
               <option value="green">Green</option>
@@ -56,32 +59,30 @@
           <i class="material-icons">&#xE313;</i>
         </div>
         <select class="control-field sort-field form-control">
-              <option value="title" selected>Title</option>
-              <option value="color">Color</option>
+              <option value="title" selected>Title Sort</option>
+              <option value="color">Color Sort</option>
             </select>
       </div>
     </div>
     </div>
 
     <div class="grid"></div>
-
-    <div class="grid-footer">
-      <button class="add-more-items btn btn-primary">
-            <i class="material-icons">&#xE145;</i>Add more items
-          </button>
-    </div>
-
   </section>
+  <footer>
+    <a href="#">Submit Writeup</a>
 
 
+    <p class="sidebar-p">Found this website helpful?<br><a href="https://www.paypal.me/devgorilla/1" ><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="120" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#555" d="M0 0h21v20H0z"/><path fill="#007ec6" d="M21 0h99v20H21z"/><path fill="url(#b)" d="M0 0h120v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"><text x="115" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="110">☕</text><text x="115" y="140" transform="scale(.1)" textLength="110">☕</text><text x="695" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="890">Buy me a coffee</text><text x="695" y="140" transform="scale(.1)" textLength="890">Buy me a coffee</text></g> </svg></a></p>
 
-
-
-
-
-  <!-- shuffle should be removed if this Murri works -->
-  <script src="https://vestride.github.io//Shuffle/dist/shuffle.js"></script>
-
+    <p class="social">
+      <a href="mailto:dwbrown89@gmail.com" data-animate-hover="pulse" class="email">
+        <i class="fa fa-envelope"></i>
+      </a>
+      <a href="https://github.com/liftedsubaru" data-animate-hover="pulse" class="external">
+        <i class="fa fa-github"></i>
+      </a>
+    </p>
+  </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>

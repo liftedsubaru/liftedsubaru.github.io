@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var filterField = demo.querySelector('.filter-field');
   var searchField = demo.querySelector('.search-field');
   var sortField = demo.querySelector('.sort-field');
-  var addItemsElement = demo.querySelector('.add-more-items');
   var characters = 'abcdefghijklmnopqrstuvwxyz';
   var filterOptions = ['red', 'blue', 'green'];
   var dragOrder = [];
@@ -53,13 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
     filterField.addEventListener('change', filter);
     sortField.addEventListener('change', sort);
 
-    // Add/remove items bindings.
-    addItemsElement.addEventListener('click', addItems);
-    gridElement.addEventListener('click', function (e) {
-      if (elementMatches(e.target, '.card-remove, .card-remove i')) {
-        removeItem(e);
-      }
-    });
+
 
   }
 
@@ -204,13 +197,12 @@ document.addEventListener('DOMContentLoaded', function () {
       var itemElem = document.createElement('div');
       var itemTemplate = '' +
           '<div class="item h' + height + ' w' + width + ' ' + color + '" data-id="' + id + '" data-color="' + color + '" data-title="' + title + '">' +
-            '<div class="item-content">' +
+            '<a href="#"> <div class="item-content">' +
               '<div class="card">' +
                 '<div class="card-id">' + id + '</div>' +
                 '<div class="card-title">' + title + '</div>' +
-                '<div class="card-remove"><i class="material-icons">&#xE5CD;</i></div>' +
               '</div>' +
-            '</div>' +
+            '</div></a>' +
           '</div>';
 
       itemElem.innerHTML = itemTemplate;

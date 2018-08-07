@@ -57,6 +57,9 @@
   z-index: 1;
   will-change: transform;
 }
+.item:hover {
+   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
 .item.muuri-item-positioning {
   z-index: 2;
 }
@@ -617,10 +620,35 @@ section h4 {
     transition: 0.4s;
     display:block;
 }
+.accordionClose {
+    border-radius: 30px;
+    margin:15px;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    margin:0 auto;
+    border: solid #eee;
+    text-align: middle;
+    outline: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.4s;
+    display:block;
+}
 
-
+.accordionClose:hover{
+  background-color: #ccc;
+  border: solid #ccc;
+}
 .active, .accordion:hover {
     background-color: #ccc;
+}
+
+.search{
+  width: 50%;
 }
 
 #about {
