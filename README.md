@@ -8,3 +8,6 @@ Found this helpful?
 
 ## Future features
 Searchable tiling for articles linked to raw sources with a PDF archive of the thread or build writeup.
+
+
+// SERVE THIS OUT OF GITHUB WITH A CUSTOM DOMAIN.... Free.
