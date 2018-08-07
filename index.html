@@ -3,6 +3,13 @@
 <head>
   <link rel="stylesheet" href="./styles/styles.css" type="text/css">
   <link rel="stylesheet" href="http://liftedsubarus.com.s3-website-us-east-1.amazonaws.com/css/font-awesome.min.css" type="text/css">
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -47,15 +54,15 @@
         <select class="control-field filter-field form-control">
           <!--TODO this needs to be created by handlebars-->
               <option value="" selected>All Types</option>
-              <option value="red">Red</option>
-              <option value="blue">Blue</option>
-              <option value="green">Green</option>
-              <option value="yellow">Yellow</option>
-              <option value="grey">Grey</option>
-              <option value="purple">Purple</option>
+              <option value="EA81">EA81</option>
+              <option value="EA82">EA82</option>
+              <option value="EJ22">EJ22</option>
+              <option value="EJ25">EJ25</option>
+              <option value="EJ15">EJ15</option>
+              <option value="generic">Generic Build Info</option>
             </select>
       </div>
-      <div class="control sort">
+      <div class="control ">
         <div class="control-icon">
           <i class="material-icons">&#xE164;</i>
         </div>
@@ -64,13 +71,19 @@
         </div>
         <select class="control-field sort-field form-control">
               <option value="title" selected>Title Sort</option>
-              <option value="color">Color Sort</option>
+              <option value="category">Category Sort</option>
             </select>
       </div>
-    </div>
-    </div>
+      <div class="resultCountWrapper ">
+        <span id="resultCount"></span>
+      </div>
 
+
+
+    </div>
+    </div>
     <div class="grid"></div>
+    <div id="noResults"></div>
   </section>
 
   <footer>
