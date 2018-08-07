@@ -665,6 +665,7 @@ section h4 {
   font-size:.6em;
 
 }
+
 #ad-wrapper{
   margin-top: 25px;
   position: relative;
@@ -680,6 +681,14 @@ section h4 {
   padding-top: 8px;
   text-align: center;
 }
+.disclaimer{
+  color: #cccccc;
+  font-size:.6em;
+  text-align: left;
+  margin: 25px auto;
+  display:block;
+}
+
 #about {
     margin:25px auto;
     width:50%;
