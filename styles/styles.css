@@ -770,15 +770,19 @@ section h4 {
 
 
 /* iphone 320 */
-@media screen and (max-width: 600px) {
-  .item.w4 {
-    width: 90%;
-  }
+
+@media screen and (max-width: 700px) {
   .search {
     width: 95%;
   }
   .filter {
     width: 95%;
+    margin-top:10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .item.w4 {
+    width: 90%;
   }
   #about {
     width:95%;
