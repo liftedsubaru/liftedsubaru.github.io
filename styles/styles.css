@@ -709,8 +709,11 @@ section h4 {
 }
 
 .search {
-  width: 38%;
+  width: 50%;
   outline: none;
+}
+.filter{
+  width: 35%;
 }
 
 .resultCountWrapper {

@@ -30,14 +30,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Reset field values.
     searchField.value = '';
-    [sortField, filterField].forEach(function(field) {
+    [ filterField].forEach(function(field) {
       field.value = field.querySelectorAll('option')[0].value;
     });
 
     // Set inital search query, active filter, active sort value and active layout.
     searchFieldValue = searchField.value.toLowerCase();
     filterFieldValue = filterField.value;
-    sortFieldValue = sortField.value;
+    //sortFieldValue = sortField.value;
 
     // Search field binding.
     searchField.addEventListener('keyup', function() {
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Filter, sort and layout bindings.
     filterField.addEventListener('change', filter);
-    sortField.addEventListener('change', sort);
+    //sortField.addEventListener('change', sort);
   }
 
   function initGrid() {
