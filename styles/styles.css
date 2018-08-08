@@ -110,7 +110,7 @@
 }
 
 .filter {
-  width: 45%;
+  width: 50%;
 }
 
 
@@ -770,7 +770,7 @@ section h4 {
 
 
 /* iphone 320 */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .item.w4 {
     width: 90%;
   }
