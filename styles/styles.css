@@ -104,6 +104,16 @@
   width: 660px;
 }
 
+
+.search {
+  width: 50%;
+}
+
+.filter {
+  width: 45%;
+}
+
+
 .item-content {
   position: relative;
   width: 100%;
@@ -708,18 +718,6 @@ section h4 {
   background-color: #ccc;
 }
 
-.search {
-  width: 50%;
-  outline: none;
-}
-.filter{
-  width: 35%;
-}
-
-.resultCountWrapper {
-  line-height: 2em;
-}
-
 .githubLogo {
   width: 20px;
   float: right;
@@ -732,6 +730,8 @@ section h4 {
 .card-description {
   font-size: .6em;
 }
+
+
 
 #ad-wrapper {
   margin-top: 25px;
@@ -767,3 +767,26 @@ section h4 {
 }
 
 /* TODO: add media sizing stuff for about*/
+
+
+/* iphone 320 */
+@media (max-width: 600px) {
+  .item.w4 {
+    width: 90%;
+  }
+  .search {
+    width: 95%;
+  }
+  .filter {
+    width: 95%;
+  }
+  #about {
+    width:95%;
+  }
+  .grid{
+    width:75%;
+  }
+  .grid, .item{
+    margin:10px auto;
+  }
+}

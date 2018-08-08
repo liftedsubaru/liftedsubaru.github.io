@@ -103,7 +103,6 @@ document.addEventListener('DOMContentLoaded', function() {
       var isFilterMatch = !filterFieldValue ? true : (element.getAttribute('data-color') || '') === filterFieldValue;
       return isSearchMatch && isFilterMatch;
     });
-    document.getElementById('resultCount').innerHTML = getCount() + " results";
   }
 
   function getCount() {
@@ -243,5 +242,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Fire it up!
   initDemo();
-  document.getElementById('resultCount').innerHTML = getCount() + " results";
 });
