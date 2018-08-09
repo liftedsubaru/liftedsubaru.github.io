@@ -82,6 +82,29 @@
   z-index: 0;
 }
 
+
+.details-headline {
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.details-author {
+  margin-top:-25px;
+  font-style: italic;
+  text-align: left;
+}
+
+.details-content img{
+  margin:10px auto;
+  display:block;
+  width:50%;"
+}
+
+
+
+
 /* TODO need to be flexible for mobile*/
 
 .item.h2 {
@@ -289,6 +312,17 @@ a:hover {
 
 /* Buttons */
 
+
+.grey-background{
+  background: #7f8fa6;
+}
+.blue-background{
+  background: #4a9ff9;
+}
+
+.btn:hover{
+  color: #fff;
+}
 .btn {
   display: inline-block;
   position: relative;
@@ -303,7 +337,7 @@ a:hover {
   height: 40px;
   text-align: center;
   white-space: nowrap;
-  background: #4a9ff9;
+
   color: #fff;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
