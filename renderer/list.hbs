@@ -13,7 +13,7 @@
 
 -->
 <head>
-  <link rel="stylesheet" href="file:///Users/honzie/Documents/personal/liftedsubarusite/styles/styles.css" type="text/css">
+  <link rel="stylesheet" href="{{ROOTURL}}/styles/styles.css" type="text/css">
   <link rel="stylesheet" href="http://liftedsubarus.com.s3-website-us-east-1.amazonaws.com/css/font-awesome.min.css" type="text/css">
   <!-- FAVICON -->
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -26,7 +26,7 @@
 </head>
 
 <body>
-  <a href="file:///Users/honzie/Documents/personal/liftedsubarusite/index.html">
+  <a href="{{ROOTURL}}/index.html">
     <h2 id='LS-title' aria="Home" class="section-title"><span>LIFTED SUBARUS</span></h2>
     <p style="margin-top:-25px;font-size:.6em;" class="section-title">Curated Offroad Subaru Build Guides</p>
   </a>
@@ -47,8 +47,8 @@
     <button class="accordionClose accordion-action">X</button>
   </div>
 
+  {{#if home}}
     <section class="grid-mGrid">
-      <a style="float:right;" href='file:///Users/honzie/Documents/personal/liftedsubarusite/list.html'>View as List</a>
       <div class="controls cf">
         <div class="control search">
           <div class="control-icon">
@@ -78,22 +78,97 @@
       </div>
       <div class="grid">
         <!-- Tiles! -->
-          <div style="background:grey" class="item h2 w4" data-id="0" data-category="ea82" data-description="title with spaces and shit&#x27;s" data-title="title with spaces and shit&#x27;sassssadasdasdasddadsd">
-            <a href="./detail-page/title-with-spaces-and-shitsassssadasdasdasddadsd.html"> <div class="item-content">
+        {{#each detailPageConfigs}}
+          <div style="background:grey" class="item h2 w4" data-id="{{ id }}" data-category="{{category}}" data-description="{{ description }}" data-title="{{ title }}">
+            <a href="{{ url }}"> <div class="item-content">
               <div class="card">
-                <div class="card-id" style="color:#3d3d3d;font-weight:600;">ea82</div>
-                <div class="card-title" style="color:#3d3d3d">title with spaces and shit&#x27;sassssadasdasdasddadsd</div>
-                <div class="card-description" style="color:#3d3d3d">title with spaces and shit&#x27;s</div>
+                <div class="card-id" style="color:#3d3d3d;font-weight:600;">{{ category }}</div>
+                <div class="card-title" style="color:#3d3d3d">{{ title }}</div>
+                <div class="card-description" style="color:#3d3d3d">{{ description }}</div>
                 </div>
               </div>
             </a>
           </div>
+        {{/each }}
 
       </div>
       <div id="noResults"></div>
     </section>
+  {{/if}}
 
+  {{#if detailpage}}
+    <section class="details">
+        <h1 class="details-headline">{{ title }}</h1>
+        <p class="details-author">by {{ author }}</p>
+        <a href="{{ original_url }}" class="btn grey-background">Link</a>
+        <a href="{{ archive_url }}" class="btn grey-background">PDF Archive</a>
+        <div class="details-content">
+          {{{ content }}}
+        </div>
+    </section>
+  {{/if}}
+  {{#if list}}
+    <section class="list">
 
+<table id="customers">
+<tr>
+  <th>Company</th>
+  <th>Contact</th>
+  <th>Country</th>
+</tr>
+<tr>
+  <td>Alfreds Futterkiste</td>
+  <td>Maria Anders</td>
+  <td>Germany</td>
+</tr>
+<tr>
+  <td>Berglunds snabbköp</td>
+  <td>Christina Berglund</td>
+  <td>Sweden</td>
+</tr>
+<tr>
+  <td>Centro comercial Moctezuma</td>
+  <td>Francisco Chang</td>
+  <td>Mexico</td>
+</tr>
+<tr>
+  <td>Ernst Handel</td>
+  <td>Roland Mendel</td>
+  <td>Austria</td>
+</tr>
+<tr>
+  <td>Island Trading</td>
+  <td>Helen Bennett</td>
+  <td>UK</td>
+</tr>
+<tr>
+  <td>Königlich Essen</td>
+  <td>Philip Cramer</td>
+  <td>Germany</td>
+</tr>
+<tr>
+  <td>Laughing Bacchus Winecellars</td>
+  <td>Yoshi Tannamuri</td>
+  <td>Canada</td>
+</tr>
+<tr>
+  <td>Magazzini Alimentari Riuniti</td>
+  <td>Giovanni Rovelli</td>
+  <td>Italy</td>
+</tr>
+<tr>
+  <td>North/South</td>
+  <td>Simon Crowther</td>
+  <td>UK</td>
+</tr>
+<tr>
+  <td>Paris spécialités</td>
+  <td>Marie Bertrand</td>
+  <td>France</td>
+</tr>
+</table>
+    </section>
+  {{/if}}
 
   <footer>
     <a href="mailto:dwbrown89@gmail.com">Submit Writeup</a>
@@ -107,14 +182,6 @@
       <p>LiftedSubarus hereby disclaims any and all liability to any party for any direct, indirect, implied, punitive, special, incidental or other consequential damages arising directly or indirectly from any use of the Video Content, which is provided as is, and without warranties.</p>
     </div>
   </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-  <script src="https://unpkg.com/muuri@0.6.2/dist/muuri.js"></script>
-  <script src="file:///Users/honzie/Documents/personal/liftedsubarusite/scripts/script.js"></script>
-  <script src="file:///Users/honzie/Documents/personal/liftedsubarusite/scripts/accordion.js"></script>
-
 </body>
 
 </html>

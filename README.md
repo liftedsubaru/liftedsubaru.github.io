@@ -11,3 +11,6 @@ Searchable tiling for articles linked to raw sources with a PDF archive of the t
 
 
 // SERVE THIS OUT OF GITHUB WITH A CUSTOM DOMAIN.... Free.
+
+
+Renderer Directory builds the static files from configs and handlebars templates
