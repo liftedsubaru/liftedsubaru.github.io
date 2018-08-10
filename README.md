@@ -14,3 +14,21 @@ Searchable tiling for articles linked to raw sources with a PDF archive of the t
 
 
 Renderer Directory builds the static files from configs and handlebars templates
+
+## Detail Pages Config Format
+
+```
+{
+  "title": "title with spaces and thing's",
+  "description": "title with spaces and thing's",
+  "category":"ea82",
+  "url": "title with spaces and shit's",
+  "author": "Loyale 2.7 Turbo",
+  "author_link": "https://www.ultimatesubaru.org/forum/profile/13502-loyale-27-turbo",
+  "original_url": "https://www.google.com",
+  "archive_url": "/static/pdf",
+  "img":"",
+  "content": "<p> stuff stuff stuff</p>"
+}
+
+```

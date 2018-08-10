@@ -8,7 +8,6 @@ const ROOTURL = 'https://liftedsubaru.github.io'
 const detailPageConfigs = [];
 
 function renderHomePage(categories) {
-  console.log(detailPageConfigs);
   return template({
     home: true,
     detailPageConfigs,
