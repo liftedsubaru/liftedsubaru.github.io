@@ -4,7 +4,8 @@ const friendlyUrl = require('friendly-url');
 const fs = require('fs');
 const template = require('./template.hbs');
 
-const ROOTURL = 'https://liftedsubaru.github.io'
+const guideImageLocation = "/static/img/guides";
+const ROOTURL = 'https://liftedsubaru.github.io';
 const detailPageConfigs = [];
 
 function renderHomePage(categories) {
@@ -13,6 +14,7 @@ function renderHomePage(categories) {
     detailPageConfigs,
     categories,
     ROOTURL,
+    guideImageLocation
   });
 }
 
@@ -21,12 +23,14 @@ function renderListView() {
     list: true,
     detailPageConfigs,
     ROOTURL,
+    guideImageLocation,
   });
 }
 
 function renderDetailPage(detail) {
   detail.detailpage = true;
   detail.ROOTURL = ROOTURL
+  detail.guideImageLocation = guideImageLocation
   return template(detail);
 }
 
@@ -92,10 +96,10 @@ function main() {
 
     var category = tempDetail.category.toUpperCase();
     if(categories.indexOf(category) < 0){ // only unique cats plz
-      categories.push({category: tempDetail.category.toUpperCase()})
+      categories.push(category)
     }
   });
-
+//console.log(categories);
   html['./index.html'] = renderHomePage(categories);
   html['./list.html'] = renderListView();
 
