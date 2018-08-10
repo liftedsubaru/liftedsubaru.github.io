@@ -4,7 +4,7 @@ const friendlyUrl = require('friendly-url');
 const fs = require('fs');
 const template = require('./template.hbs');
 
-const ROOTURL= 'https://liftedsubaru.github.io'
+const ROOTURL = 'https://liftedsubaru.github.io'
 const detailPageConfigs = [];
 
 function renderHomePage() {
@@ -45,6 +45,28 @@ function saveFiles(contentHash, i, cb) {
 }
 
 function init(cb) {
+
+  // Clean out detail page dir
+  const deletedFiles = [];
+  const dirname = '../detail-page';
+  fs.readdir(dirname, (err, filenames) => {
+    filenames.forEach((filename) => {
+      console.log('Cleaning out detail page dir');
+      fs.unlink(`${dirname}/${filename}`, (err) => {
+        if (err) throw err;
+        deletedFiles.push(filename);
+        console.log(`successfully deleted ${filename}`);
+        if (deletedFiles.length === filenames.length) getPageConfigs(cb);
+      });
+    });
+    if (!filenames.length) {
+      getPageConfigs(cb);
+    }
+  });
+}
+
+function getPageConfigs(cb) {
+  console.log('getting detail page configs');
   const dirname = './detail-pages';
   fs.readdir(dirname, (err, filenames) => {
     filenames.forEach((filename) => {
@@ -78,7 +100,7 @@ function main() {
   });
 }
 
-// TODO: Should pages be deleted before Re-render?
+
 init(main);
 
 // Unused, might be needed
