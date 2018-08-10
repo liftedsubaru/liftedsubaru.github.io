@@ -7,10 +7,12 @@ const template = require('./template.hbs');
 const ROOTURL = 'https://liftedsubaru.github.io'
 const detailPageConfigs = [];
 
-function renderHomePage() {
+function renderHomePage(categories) {
+  console.log(detailPageConfigs);
   return template({
     home: true,
     detailPageConfigs,
+    categories,
     ROOTURL,
   });
 }
@@ -81,19 +83,22 @@ function getPageConfigs(cb) {
 
 function main() {
   const html = {};
-  const parsedConfigs = [];
-
+  const categories = [];
   detailPageConfigs.forEach((detail, i) => {
     const url = `./detail-page/${friendlyUrl(detail.title)}.html`; // fileName
     html[url] = renderDetailPage(detail);
     const tempDetail = detail;
-    tempDetail.url = url;
-    tempDetail.id = i; // it can change each time, just for muri grid
-    parsedConfigs.push(tempDetail);
+    detail.url = url;
+    detail.id = i; // it can change each time, just for muri grid
+
+    var category = tempDetail.category.toUpperCase();
+    if(categories.indexOf(category) < 0){ // only unique cats plz
+      categories.push({category: tempDetail.category.toUpperCase()})
+    }
   });
 
-  html['./index.html'] = renderHomePage(parsedConfigs);
-  html['./list.html'] = renderListView(parsedConfigs);
+  html['./index.html'] = renderHomePage(categories);
+  html['./list.html'] = renderListView();
 
   saveFiles(html, 0, () => {
     console.log('\nDone.');

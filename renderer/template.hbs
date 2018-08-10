@@ -66,14 +66,11 @@
           </div>
           <select class="control-field filter-field form-control">
             <!--TODO this needs to be created by handlebars-->
-                <option value="" selected>All Types</option>
-                <option value="EA81">EA81</option>
-                <option value="EA82">EA82</option>
-                <option value="EJ22">EJ22</option>
-                <option value="EJ25">EJ25</option>
-                <option value="EJ15">EJ15</option>
-                <option value="generic build">Generic Build Info</option>
-              </select>
+            <option value="" selected>All Types</option>
+            {{#each categories}}
+              <option value="{{category}}">{{category}}</option>
+            {{/each}}
+          </select>
         </div>
       </div>
       </div>
