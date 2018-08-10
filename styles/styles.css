@@ -286,8 +286,9 @@ a {
   transition: all 0.2s ease-out;
 }
 
+
 a:hover {
-  color: #FF4BD8;
+  color: #4A9FF9;
 }
 
 /* Clearfix */
@@ -611,6 +612,7 @@ section h4 {
 
 /* Section titles */
 
+
 .section-title {
   color: #3e3e3e;
   font-size: 3em;
@@ -619,6 +621,16 @@ section h4 {
   letter-spacing: 2px;
   text-transform: uppercase;
   text-align: center;
+
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+#LS-title:hover {
+  color: #4A9FF9;
 }
 
 .section-title>span {
@@ -827,4 +839,25 @@ section h4 {
   .grid, .item{
     margin:10px auto;
   }
+}
+
+
+#listView {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#listView td, #listView th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#listView tr:nth-child(even){background-color: #f2f2f2;}
+
+#listView th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4A9FF9;
+    color: white;
 }
