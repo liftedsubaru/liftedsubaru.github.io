@@ -163,9 +163,9 @@
   font-size: 1em;
   font-weight: 500;
   word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(44, 62, 80, 0.6);
   /*border: 3px solid #7f8fa6;*/
-  color: #000;
+  color: #fff;
   border-radius: 1px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
@@ -203,7 +203,7 @@
 }
 
 .card-id {
-  color:#3d3d3d;
+  color: #bdc3c7; /*#3d3d3d;*/
   margin-left:10px;float:left;
   font-size:.8em;
 
@@ -216,7 +216,7 @@
   font-weight: 600;
 }
 .card-author {
-  color:#3d3d3d;
+  color: #bdc3c7; /*#3d3d3d;*/
   margin-right:10px;
   float:right;
   font-size:.8em;
@@ -228,6 +228,12 @@
   text-align: right;
   font-size: 12px;
   font-weight: 600;
+}
+.card a{
+  color: #fff;
+}
+.card a:hover{
+  color: #fff;
 }
 
 /* Grid Footer */

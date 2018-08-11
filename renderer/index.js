@@ -28,12 +28,10 @@ function renderListView() {
 }
 
 function renderDetailPage(detail) {
-  detail.detailpage = true;
-  detail.ROOTURL = ROOTURL
-  detail.guideImageLocation = guideImageLocation
-  if (detail.img && detail.youtube) {
-    //delete detail.img; // dont want image when youtube video is on page
-  }
+  var temp = detail
+  temp.detailpage = true;
+  temp.ROOTURL = ROOTURL
+  temp.guideImageLocation = guideImageLocation
   return template(detail);
 }
 

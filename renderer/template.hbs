@@ -79,15 +79,17 @@
         {{#each detailPageConfigs}}
 
           <div style="{{#if img}}background-image: url('{{ROOTURL}}{{guideImageLocation}}{{img}}');{{/if}}" class="item h2 w4" data-id="{{ id }}" data-category="{{category}}" data-description="{{ description }}" data-title="{{ title }}">
-            <a href="{{ url }}"> <div class="item-content">
+
               <div class="card">
                 <div class="card-id">{{ category }}</div>
                 <div class="card-author">{{ author }}</div>
+                <a href="{{ url }}"> <div class="item-content">
                 <div class="card-title">{{ title }}</div>
                 <div class="card-description">{{ description }}</div>
+                </a>
                 </div>
               </div>
-            </a>
+
           </div>
         {{/each }}
 
@@ -109,7 +111,7 @@
 
         <div class="details-content">
           {{#if img}}
-            <img src="{{ROOTURL}}{{guideImageLocation}}{{img}}">
+            <img{{#if youtube}}style="display:none" {{/if}}src="{{ROOTURL}}{{guideImageLocation}}{{img}}">
           {{/if}}
           {{#if youtube}}
             <iframe width="560" height="315" src="{{youtube}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
