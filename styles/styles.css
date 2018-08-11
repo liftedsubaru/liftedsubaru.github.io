@@ -60,6 +60,10 @@
   margin: 10px;
   z-index: 1;
   will-change: transform;
+  background:grey;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 .item:hover {
@@ -153,10 +157,10 @@
   font-size: 1em;
   font-weight: 500;
   word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 2px solid;
-  color: #333;
-  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid #7f8fa6;
+  color: #000;
+  border-radius: 1px;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
@@ -194,7 +198,7 @@
 
 .card-id {
 /*  display: none;*/
-
+  font-size:.8em;
   position: absolute;
   left: 7px;
   top: 0;
@@ -770,11 +774,12 @@ section h4 {
 }
 
 .card-title {
+  font-weight:600;
   padding-top: 80px;
 }
 
 .card-description {
-  font-size: .6em;
+  font-size: .8em;
 }
 
 
@@ -782,7 +787,7 @@ section h4 {
 #ad-wrapper {
   margin-top: 25px;
   position: relative;
-  display:none; /*  display: inline-block;TODO: when we have an ad, put here*/ 
+  display:none; /*  display: inline-block;TODO: when we have an ad, put here*/
   width: 320px;
   /* mobile banner, adsense https://support.google.com/adsense/answer/9739?hl=en */
   height: 50px;

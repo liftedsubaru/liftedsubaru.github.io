@@ -77,12 +77,13 @@
       <div class="grid">
         <!-- Tiles! -->
         {{#each detailPageConfigs}}
-          <div style="background:grey" class="item h2 w4" data-id="{{ id }}" data-category="{{category}}" data-description="{{ description }}" data-title="{{ title }}">
+
+          <div style="{{#if img}}background-image: url('{{ROOTURL}}{{guideImageLocation}}{{img}}');{{/if}}" class="item h2 w4" data-id="{{ id }}" data-category="{{category}}" data-description="{{ description }}" data-title="{{ title }}">
             <a href="{{ url }}"> <div class="item-content">
               <div class="card">
                 <div class="card-id" style="color:#3d3d3d;font-weight:600;">{{ category }}</div>
-                <div class="card-title" style="color:#3d3d3d">{{ title }}</div>
-                <div class="card-description" style="color:#3d3d3d">{{ description }}</div>
+                <div class="card-title">{{ title }}</div>
+                <div class="card-description">{{ description }}</div>
                 </div>
               </div>
             </a>
