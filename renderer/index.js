@@ -8,7 +8,7 @@ const guideImageLocation = "/static/img/guides";
 const ROOTURL = ''; // 'file:///Users/honzie/Documents/personal/liftedsubarusite'
 const detailPageConfigs = [];
 
-var CurrentDate = moment().format('MM.DD.YY');;
+var CurrentDate = moment().format('MM.DD.YY-mm.ss');;
 
 function renderHomePage(categories) {
 
