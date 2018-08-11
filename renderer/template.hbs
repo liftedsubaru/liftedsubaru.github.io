@@ -99,7 +99,7 @@
   {{#if detailpage}}
     <section class="details">
         <h1 class="details-headline">{{ title }}</h1>
-        <p class="details-author">by {{ author }}</p>
+        {{#if author}} <p class="details-author">by {{ author }}</p>{{/if}}
         {{#if original_url}}
           <a href="{{ original_url }}" class="btn grey-background">Link</a>
         {{/if}}
