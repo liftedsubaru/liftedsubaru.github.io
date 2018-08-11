@@ -18,7 +18,8 @@
   "homepage": "https://github.com/liftedsubaru/liftedsubarusite#readme",
   "dependencies": {
     "friendly-url": "^1.0.3",
-    "handlebars": "^4.0.11"
+    "handlebars": "^4.0.11",
+    "moment": "^2.22.2"
   },
   "devDependencies": {
     "eslint": "^4.17.0",

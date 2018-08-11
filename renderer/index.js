@@ -3,18 +3,22 @@ const handlebars = require('handlebars'); // eslint-disable-line
 const friendlyUrl = require('friendly-url');
 const fs = require('fs');
 const template = require('./template.hbs');
-
+const moment = require('moment');
 const guideImageLocation = "/static/img/guides";
 const ROOTURL = ''; // 'file:///Users/honzie/Documents/personal/liftedsubarusite'
 const detailPageConfigs = [];
 
+var CurrentDate = moment().format('MM.DD.YY');;
+
 function renderHomePage(categories) {
+
   return template({
     home: true,
     detailPageConfigs,
     categories,
     ROOTURL,
-    guideImageLocation
+    guideImageLocation,
+    version:CurrentDate
   });
 }
 
@@ -24,15 +28,17 @@ function renderListView() {
     detailPageConfigs,
     ROOTURL,
     guideImageLocation,
+    version:CurrentDate
   });
 }
 
 function renderDetailPage(detail) {
-  var temp = detail
+  var temp = detail;
   temp.detailpage = true;
-  temp.ROOTURL = ROOTURL
-  temp.guideImageLocation = guideImageLocation
-  return template(detail);
+  temp.ROOTURL = ROOTURL;
+  temp.guideImageLocation = guideImageLocation;
+  temp.version = CurrentDate;
+  return template(temp);
 }
 
 function saveFiles(contentHash, i, cb) {
