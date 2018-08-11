@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         layoutDuration: 400,
         layoutEasing: 'ease',
-        dragEnabled: true,
+        dragEnabled: false,
         dragSortInterval: 50,
         dragContainer: document.body,
         dragStartPredicate: function(item, event) {
