@@ -99,7 +99,7 @@ function main() {
       categories.push(category)
     }
   });
-//console.log(categories);
+
   html['./index.html'] = renderHomePage(categories);
   html['./list.html'] = renderListView();
 
