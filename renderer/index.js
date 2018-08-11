@@ -5,7 +5,7 @@ const fs = require('fs');
 const template = require('./template.hbs');
 
 const guideImageLocation = "/static/img/guides";
-const ROOTURL = 'https://liftedsubaru.github.io'; // 'file:///Users/honzie/Documents/personal/liftedsubarusite'
+const ROOTURL = ''; // 'file:///Users/honzie/Documents/personal/liftedsubarusite'
 const detailPageConfigs = [];
 
 function renderHomePage(categories) {
