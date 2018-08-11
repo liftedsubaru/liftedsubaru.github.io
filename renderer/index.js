@@ -32,7 +32,7 @@ function renderDetailPage(detail) {
   detail.ROOTURL = ROOTURL
   detail.guideImageLocation = guideImageLocation
   if (detail.img && detail.youtube) {
-    delete detail.img; // dont want image when youtube video is on page
+    //delete detail.img; // dont want image when youtube video is on page
   }
   return template(detail);
 }
