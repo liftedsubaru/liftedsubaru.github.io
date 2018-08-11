@@ -117,7 +117,7 @@
 
         <div class="details-content">
           {{#if img}}
-            <img{{#if youtube}}style="display:none" {{/if}}src="{{ROOTURL}}{{guideImageLocation}}{{img}}">
+            <img {{#if youtube}}style="display:none" {{/if}} src="{{{ROOTURL}}}{{{guideImageLocation}}}{{{img}}}">
           {{/if}}
           {{#if youtube}}
             <iframe width="560" height="315" src="{{youtube}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
