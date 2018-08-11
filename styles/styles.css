@@ -63,7 +63,7 @@
   background:grey;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  /*background-size: 100%;*/
 }
 
 .item:hover {
@@ -848,7 +848,11 @@ section h4 {
 
 
 /* iphone 320 */
-
+@media screen and (max-width: 1000px) {
+  .item.w4 {
+    width: 22%;
+  }
+}
 @media screen and (max-width: 700px) {
   .search {
     width: 95%;
@@ -860,16 +864,14 @@ section h4 {
 }
 @media screen and (max-width: 600px) {
   .item.w4 {
-    width: 90%;
+    width: 45%;
   }
   #about {
     width:95%;
   }
-  .grid{
-    width:75%;
-  }
+
   .grid, .item{
-    margin:10px auto;
+    margin:5px;
   }
 }
 
