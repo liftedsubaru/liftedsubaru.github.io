@@ -25,8 +25,14 @@
   <meta name=”description” content="Curated Offroad Subaru Build Guides.">
   <meta name="Keywords" content="lifted subaru offroad fabrication 4x4">
   <!--  Facebook -->
-  <meta property="og:title"        content="{{#if home}}Lifted Subarus{{/if}} {{#if detailpage}} {{ title }} {{/if}}" />
-  <meta property="og:description"  content="{{#if home}}Curated Offroad Subaru Build Guides.{{/if}} {{#if detailpage}} {{ description }} {{/if}}" />
+  <meta property="og:title" content="{{#if home}}Lifted Subarus{{/if}} {{#if detailpage}} {{ title }} {{/if}}" />
+  <meta property="og:description" content="{{#if home}}Curated Offroad Subaru Build Guides.{{/if}} {{#if detailpage}} {{ description }} {{/if}}" />
+
+  {{#if detailpage}}
+    {{#if img}}
+    <meta property="og:image" content="{{img}}" />
+    {{/if}}
+  {{/if}}
 
 
 </head>
