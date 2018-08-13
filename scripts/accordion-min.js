@@ -1,0 +1,1 @@
+var accordion=document.getElementsByClassName("accordion-action");for(i=0;i<accordion.length;i++)accordion[i].addEventListener("click",function(){this.classList.toggle("active");var e=document.getElementById("about");"block"===e.style.display?e.style.display="none":e.style.display="block"});

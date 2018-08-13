@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return isSearchMatch && isFilterMatch;
     });
     if (getCount() === 0) {
-      document.getElementById('noResults').innerHTML = `NO RESULTS FOLKS!`
+      document.getElementById('noResults').innerHTML = 'NO RESULTS FOLKS!'
     }
   }
 
