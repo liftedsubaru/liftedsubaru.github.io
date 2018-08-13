@@ -1,4 +1,4 @@
-// TODO this should probably all be redone with webpack or gulp
+// TODO this should probably all be redone with gulp
 const handlebars = require('handlebars'); // eslint-disable-line
 const friendlyUrl = require('friendly-url');
 const fs = require('fs');
