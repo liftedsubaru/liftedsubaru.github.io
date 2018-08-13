@@ -87,7 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!isSearchMatch) isSearchMatch = (element.getAttribute('data-description') || '').toLowerCase().indexOf(searchFieldValue) > -1;
       if (!isSearchMatch) isSearchMatch = (element.getAttribute('data-category') || '').toLowerCase().indexOf(searchFieldValue) > -1;
 
-      var isFilterMatch = !filterFieldValue ? true : (element.getAttribute('data-category') || '').toLowerCase() === filterFieldValue.toLowerCase();
+      //lets do treat category/filter as array
+      var isFilterMatch = !filterFieldValue ? true : (element.getAttribute('data-category') || '').toLowerCase().indexOf(filterFieldValue.toLowerCase())> -1;
       return isSearchMatch && isFilterMatch;
     });
     if (getCount() === 0) {
