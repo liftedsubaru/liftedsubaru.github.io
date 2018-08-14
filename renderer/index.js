@@ -8,10 +8,9 @@ const guideImageLocation = "/static/img/guides";
 const ROOTURL = ''; // 'file:///Users/honzie/Documents/personal/liftedsubaru.github.io'
 const detailPageConfigs = [];
 
-var CurrentDate = moment().format('MM.DD.YY-mm.ss');;
+const CurrentDate = moment().format('MM.DD.YY-mm.ss');;
 
 function renderHomePage(categories) {
-
   return template({
     home: true,
     detailPageConfigs,
@@ -57,7 +56,6 @@ function saveFiles(contentHash, i, cb) {
 }
 
 function init(cb) {
-
   // Clean out detail page dir
   const deletedFiles = [];
   const dirname = '../detail-page';
