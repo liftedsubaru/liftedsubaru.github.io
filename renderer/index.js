@@ -5,7 +5,10 @@ const fs = require('fs');
 const template = require('./template.hbs');
 const moment = require('moment');
 const guideImageLocation = "/static/img/guides";
-const ROOTURL = ''; // 'file:///Users/honzie/Documents/personal/liftedsubaru.github.io'
+
+let ROOTURL = ''; // 'file:///Users/honzie/Documents/personal/liftedsubaru.github.io'
+if (process.argv[2] == 'dev') ROOTURL = "file:///Users/honzie/Documents/personal/liftedsubaru.github.io"
+
 const detailPageConfigs = [];
 
 const CurrentDate = moment().format('MM.DD.YY-mm.ss');;
