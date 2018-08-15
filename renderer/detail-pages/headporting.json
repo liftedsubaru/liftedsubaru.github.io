@@ -1,10 +1,10 @@
 {
   "title": "DIY Head Porting",
   "description": "",
-  "category":"Generic Info",
+  "category": "Generic Info",
   "url": "Head-Porting-DIY",
   "author": "Tech Staff",
   "archive_url": "/static/pdf/Head-Porting-DIY.pdf",
-  "img":"/porting-min.png",
-  "content": "<p>''In many cases, the greatest performance gain per dollarspent comes upon application of basic porting procedures to a production cylinder head. These basics can be done by any do-it-yourselfer even those with no porting experience''</p><p>This isn't a definitive guide. but should get you started on your research and at least help you decide if this project is one you want to tackle</p>"
+  "img": "/porting-min.png",
+  "content": ["<p>''In many cases, the greatest performance gain per dollarspent comes upon application of basic porting procedures to a production cylinder head. These basics can be done by any do-it-yourselfer even those with no porting experience''</p><p>This isn't a definitive guide. but should get you started on your research and at least help you decide if this project is one you want to tackle</p>"]
 }

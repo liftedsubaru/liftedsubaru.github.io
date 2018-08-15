@@ -127,7 +127,9 @@
           {{#if youtube}}
             <iframe width="560" height="315" src="{{youtube}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           {{/if}}
-          {{{ content }}}
+          {{#each content }}
+            {{{this}}}
+          {{/each}}
         </div>
     </section>
   {{/if}}

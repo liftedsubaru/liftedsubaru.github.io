@@ -1,9 +1,9 @@
 {
   "title": "Hitachi Carb Rebuild",
   "description": "",
-  "category":"ea82",
+  "category": "ea82",
   "url": "Hitachi Carburetor rebuild pdf",
   "archive_url": "/static/pdf/Hitachicarburetor.pdf",
-  "img":"/hitachi-rebuild.png",
-  "content": "Original source unknown"
+  "img": "/hitachi-rebuild.png",
+  "content": ["Original source unknown"]
 }

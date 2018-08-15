@@ -1,10 +1,10 @@
 {
   "title": "Cars101.com",
   "description": "Subaru research and information website",
-  "category":"Generic Info",
+  "category": "Generic Info",
   "url": "title with spaces and shit's",
   "author": "Joe Spitz",
   "original_url": "http://www.cars101.com",
-  "img":"/subaru-history.jpg",
-  "content": "<p>Resource for information on stock subarus. Joe has assembled a massive website of random stuff about all models, keyless entry, nav systems, service intervals etc. </p><p>Research Subaru prices, specifications, colors, rebates, options, photographs, magazine reviews and more.</p><em>submitted by Michael Anderson</em>"
+  "img": "/subaru-history.jpg",
+  "content": ["<p>Resource for information on stock subarus. Joe has assembled a massive website of random stuff about all models, keyless entry, nav systems, service intervals etc. </p><p>Research Subaru prices, specifications, colors, rebates, options, photographs, magazine reviews and more.</p><em>submitted by Michael Anderson</em>"]
 }
