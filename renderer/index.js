@@ -100,7 +100,7 @@ function main() {
     html[url] = renderDetailPage(detail);
     const tempDetail = detail;
     detail.url = url;
-    detail.id = i; // it can change each time, just for muri grid
+    
 
     var category = tempDetail.category.toUpperCase();
     if(categories.indexOf(category) < 0){ // only unique cats plz
