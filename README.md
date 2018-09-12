@@ -26,7 +26,7 @@ Renderer Directory builds the static files from configs and handlebars templates
   "author": "Loyale 2.7 Turbo",
   "author_link": "https://www.ultimatesubaru.org/forum/profile/13502-loyale-27-turbo",
   "original_url": "https://www.google.com",
-  "archive_url": "/static/pdf",
+  "archive_url": "/static/archive",
   "img":"",
   "content": "<p> stuff stuff stuff</p>"
 }
