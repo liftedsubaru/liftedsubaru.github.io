@@ -93,6 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     if (getCount() === 0) {
       document.getElementById('noResults').innerHTML = 'NO RESULTS FOLKS!'
+    } else {
+      document.getElementById('noResults').innerHTML = ''
     }
   }
 
