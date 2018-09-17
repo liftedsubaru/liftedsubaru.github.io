@@ -9,12 +9,14 @@ Found this helpful?
 ## Future features
 Searchable tiling for articles linked to raw sources with a PDF archive of the thread or build writeup.
 
-
-// SERVE THIS OUT OF GITHUB WITH A CUSTOM DOMAIN.... Free.
-
-
 Renderer Directory builds the static files from configs and handlebars templates
 
+```
+
+  cd renderer
+  node index.js <-- builds html from json found in renderer/detail-pages
+
+```
 ## Detail Pages Config Format
 
 ```
