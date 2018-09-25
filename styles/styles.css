@@ -900,3 +900,11 @@ section h4 {
   font-size:.5em;
   color:#bdc3c7
 }
+.side-by-side  {
+  width: 90%;
+  margin:0 auto;
+}
+.side-by-side img {
+  max-width: 49%;
+  display: inline-block;
+}
