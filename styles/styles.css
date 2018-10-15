@@ -91,11 +91,21 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  text-align: left;
+  display: inline;
 }
 
+.details-category {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline;
+  margin-bottom: 25px;
+}
+
+
 .details-author {
-  margin-top:-25px;
+  margin-top:-10px;
   font-style: italic;
   text-align: left;
 }
@@ -103,7 +113,7 @@
 .details-content img{
   margin:10px auto;
   display:block;
-  width:50%;"
+  max-width:50%;
 }
 
 .details-content iframe{
