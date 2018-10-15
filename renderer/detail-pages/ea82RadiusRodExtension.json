@@ -1,0 +1,31 @@
+{
+  "title": "Radius Rod Extension",
+  "description": "",
+  "category": "L-series",
+  "url": "radius-rod-extension",
+  "author": "Alex Bui",
+  "author_link": "https://www.instagram.com/buimfg/",
+  "img": "/shitbox.jpg",
+  "content": [
+    "<p>This is a simple modification to do to help gain clearance for bigger tires and improve castor. Doing this mod will push your front tires forward how many inches you extend the radius rods. The average extension is 1 - 1.5 inches, but I have found 1.5 inches a little too much.</p>",
+    "</br>",
+    "<h3>What You'll Need</h3>",
+    "<p><ul><li>Tubing (.120 DOM?)</li><li>Welder</li><li>Cutoff disc</li></ul></p>",
+    "<p>Here is the difference. Top is stock, bottom is extended.</p>",
+      "<img styles=\"max-width:80%;\" src=\"../static/img/guides/radiusRod1.png\"/>",
+    "<p>First cut the radius rod in half. I used some scrap steel rod cut at 1.5” to ensure that both radius rods were extended an equal distance. Find tubing that fits perfectly over the radius rods (it was a weird size). Cut the tubing so it covers most of the radius rod when extended.</p>",
+      "<img styles=\"max-width:80%;\" src=\"../static/img/guides/radiusRod2.png\"/>",
+    "<p>Then weld it all up. This was welded with a fluxed core welder. Remember to have clean surfaces to weld to.</p>",
+      "<img styles=\"max-width:80%;\" src=\"../static/img/guides/radiusRod3.png\"/>",
+    "<p>Difference between stock and extended.</p>",
+      "<img styles=\"max-width:80%;\" src=\"../static/img/guides/radiusRod4.png\"/>",
+    "<p>Installation was tricky. I had to ratchet strap the control arms forward so I could fit one bolt into the arms. You also have to elongate one hole on each side of the control arms for it to fully bolt down. This next picture you can see how the bolt hole to the right was elongated.</p>",
+      "<img styles=\"max-width:80%;\" src=\"../static/img/guides/radiusRod5.png\"/>",
+    "<p>There were some clearancing issues with the axles with it hitting the crossmember at full lock. The engine crossmember had to be notched so the axles would clear. Look closely at the blurry picture to see where it got notched (Right above the control arm mount).</p>",
+      "<img styles=\"max-width:80%;\" src=\"../static/img/guides/radiusRod6.png\"/>",
+    "<h3>Interested in seeing Alex's ongoing work?</h3>",
+    "<p>You can follow Alex on Instagram.</p>",
+    "<p><a href=\"https://www.instagram.com/buimfg/\"><img style=\"width:40px;display:inline; vertical-align:middle;\" src=\"../static/img/site/instagram-logo.png\"/> @buimfg</a></p>",
+    "<p><a href=\"https://www.instagram.com/stantheshitbox\"><img style=\"width:40px;display:inline; vertical-align:middle;\" src=\"../static/img/site/instagram-logo.png\"/> @stantheshitbox</a></p>"
+  ]
+}
