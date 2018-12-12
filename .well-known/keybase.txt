@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dougbrown
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.liftedsubarus.com
+  * I am dougbrown (https://keybase.io/dougbrown) on keybase.
+  * I have a public key with fingerprint 0A4F AE28 FEDC 55BD 7CC5  B76F AAC4 7B9D BA24 CAF2
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010184b736f7a0038c57fc9ac74d93b254adbba96fad589d33092edff7be71dab74a0a",
+      "fingerprint": "0a4fae28fedc55bd7cc5b76faac47b9dba24caf2",
+      "host": "keybase.io",
+      "key_id": "aac47b9dba24caf2",
+      "kid": "010184b736f7a0038c57fc9ac74d93b254adbba96fad589d33092edff7be71dab74a0a",
+      "uid": "a7e3283749763fd3057955fd5b6d4f19",
+      "username": "dougbrown"
+    },
+    "service": {
+      "hostname": "www.liftedsubarus.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1544627003,
+  "expire_in": 157680000,
+  "prev": "bfc49c24473dbb4dd26f1d5aa8a02746e153248c8403a1dfd6c6a383b311a0c6",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.80
+Comment: https://keybase.io/crypto
+
+yMIxAnicrZJvaE1hHMfvZvNntRojb2bN0RLu5vx5znnOubMZM+2GZQ2bS13Pv3Md
+tnvuPffcXcxilLI3iPKCSHlhJWZprdCuZcKKaMKQFokUJSU3Ns+Zeeel583T8+v7
+/fy+v1/Pnfxpvrys0PNXORNbCr9mDd++kPRtn72ool3ANt0rBNqF3WzyYi2UJdzw
+bosKAUGUREkHGCqaCZEoKjpRoUkMRCCghoJlFSCKMTI0E1FVN6iiiIbMqGlCzKBE
+EYYAiUjwC6YVjTAn5lhR18MiYCIm6yajRFUxhYSoGHIIIgBig2IkA4JMmRt32gnP
+wcNhlGDlls1r/BGejPcP/X/OnfzTBzJF1hUIDKgpJlVEFRqqalIVaxSYkuEJE8yJ
+olbG1dRORrBjp6JCh1/g5TaLMG+z3ihTklQqVd5imS6jiSRGTjJRTuxWTok5tmsT
+u4VLdrpuLOAR3L2xSQvD4SlYGFtRyhfKDW3MSVh2VAhIXElcy6NLKgCaDPnYfoHt
+iVkOC1ueQoWaLvLjtWFtHIlNAgwiAwAVvg1AqayZElUR0pEoQ6AxSVVkoBMdiAqS
+qEk1oiFFV7AiSUgkmuCNF4/aHpvnRBHOTFiRKHKTDhM6BtPbc3xZeb7pudneT/Pl
+zSr4+/8yh2aMS3XDm0KlK7rP+UYD7y6HukBVQynp7giOBWu/BBZeW/K4vzN7XXBk
+9rF4PE0OFC9+NNH5LT9zZEdpLL1/S31f+cDT9K/q3ODZM1WnB+trel++yO4aLVz1
+o62p78r9S6tvzei5SGo+bPWnH1T0DRyuLsqtzJp59OrLmht1t/aNtf/YdWpfpZaT
+iRwsLmmJtC6tBz2v4ycGcefA8mkl1/ue3Du57UjgYejZSHosvib3w/f+jYF5+Pna
+ZafnZOqOj3aOz5/77kaZf31z08j7HtTc2Nj79k1qaKi27PzPUJ3V/e3TR/dz8OKb
+8w1PihauLArePJSfrD929u6GWZnGxaH3SxdcKNh86jcbDUZA
+=IsyM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dougbrown
+
+==================================================================
